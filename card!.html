@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://allfont.es/allfont.css?fonts=raleway-bold" rel="stylesheet" type="text/css" />
+
+</head>
+<style>
+    .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.section1 {
+    width: 500px;
+    height: 750px;
+    background: linear-gradient(90deg,  rgb(233, 220, 220)0%,  44%, rgb(233, 220, 220) 100%);
+    border-radius: 20px;
+}
+.imagen_calle img{
+    width: 500px;
+    height: 280px;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.imagen_inicio img{
+    width: 140px;
+    height: 160px;
+    position: absolute;
+    border-radius: 100px;
+    box-shadow: 0px 0px 5px 1px white;
+    margin-top: 20px;
+    margin-top: -87px;
+    left: calc(50% - 70px);
+}
+.description {
+    margin-left: 140px;
+    left: -7px;
+    margin-top: 77px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.description h1 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-left: 38px;
+}
+.description h2 {
+    margin-left: 38px;
+    line-height: 0.5rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.description p {
+    margin-left: 30px;
+    line-height: 2rem;
+}
+.description p2{
+    line-height: 2rem;
+    margin-left: -30px;
+}
+.description p3{
+    line-height: 1rem;
+    margin-left: 45px;
+}
+.section-skills img {
+    height: 50px;
+}
+.section-skills {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    gap: 20px;
+    background-color: #000000;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+.contact {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+</style>
+<body>
+    <section class="container">
+        <section class="section1">
+            <div class="imagen_calle">
+                <img src="https://imgs.search.brave.com/uSL0oOmoEGWWntijYVihSeUz_fvMxuO6fgGIGBc-nyg/rs:fit:474:355:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNDc0/eC83ZC9iYy9lZC83/ZGJjZWQ0N2UwNzI5/YjdmYzIwNzA4YjUy/ZTEwMDEyZi0tYW1l/cmljYW4tcHN5Y2hv/LXN0b2NrLW1hcmtl/dC5qcGc" alt="imagen--codigo">
+            </div>
+            <div class="imagen_inicio">
+                <img src="https://imgs.search.brave.com/g4O99ncX63DgJ7jNbXd-qvv2awVWSoGeYf16jkpHqcw/rs:fit:320:240:1/g:ce/aHR0cDovL3d3dy5h/dmVsZXltYW4uY29t/L0dhbGxlcnkvMjAx/Ny9MLzIwNDIwLTI0/ODU4LmpwZw" alt="imagen--inicio">
+            </div>
+            <div class="description">
+                <h1>Paul Allen</h1>
+                <h2>Vice President</h2>
+                <P>PIERCE & PIERCE</P>
+                <P2>MERGERS AND ADQUISITIONS</P2>
+                <P3>212.555.6342</P3>
+            </div>
+            <div class="section-skills">
+                <figure>
+                    <img src="https://imgs.search.brave.com/DnjLg7V4QWW2AXK-PQjT-H-Y8KhHuB2dWHylHGWmmmU/rs:fit:1024:1024:1/g:ce/aHR0cDovL2ljb25z/Lmljb25hcmNoaXZl/LmNvbS9pY29ucy9p/eW5xdWUvaW9zNy1z/dHlsZS8xMDI0L1N0/b2Nrcy1pY29uLnBu/Zw" alt="logo-stocks">
+                </figure>
+                <figure>
+                    <img src="https://imgs.search.brave.com/6OkTHJqAE_7EY1Z0AVSMNFZf-LHK6u9MvolS69Xp7r8/rs:fit:256:256:1/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi9hY3F1aXNp/dGlvbnMtNC0xMDk4/NjEyLnBuZw" alt="logo-hands">
+                </figure>
+                <figure class="build">
+                    <img  src="https://imgs.search.brave.com/eQKvxtgm9lOFTiH1pC-0W-66sGlj9OUJLPk7FRPFf44/rs:fit:320:320:1/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWljb25zcG5n/LmNvbS90aHVtYnMv/c2t5c2NyYXBlci1p/Y29uL3NreXNjcmFw/ZXItaWNvbi1wbmct/MTUucG5n" alt="logo-build">
+                </figure>
+            </div>
+            <p class="contact">
+                Contact
+            </p>
+            <div class="social-media">
+                    <div class="github">
+                        <img src="https://imgs.search.brave.com/jRtcont1tka0L_Rxg8IsbcWIu5rhiZNpQbnVnrJCORM/rs:fit:1200:1200:1/g:ce/aHR0cDovL3d3dy5w/bmdhbGwuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzA0/L1doYXRzQXBwLVBO/Ry1QaWN0dXJlLnBu/Zw" alt="logo-github">
+                    </div>
+                    <div>
+                        <img src="https://imgs.search.brave.com/2yIiytoHAqGwDtxe9IxduUTnwRYhbAfTe1uzOlJ2PLU/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/cG5na2V5LmNvbS9w/bmcvZnVsbC8yLTI3/NjQ2X3R3aXR0ZXIt/bG9nby1wbmctdHJh/bnNwYXJlbnQtYmFj/a2dyb3VuZC1sb2dv/LXR3aXR0ZXItcG5n/LnBuZw" alt="logo-twitter">
+                    </div>
+                    <div>
+                        <img src="https://imgs.search.brave.com/6GBlwCahM9sUAeP5elnSZVfsE-xlLQH9rVEPwb9z7yQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvbGlua2VkSW4v/bGlua2VkSW5fUE5H/MzkucG5n" alt="logo-linkedin">
+                    </div>
+            </div>
+            
+        </section>
+    </section>
+</body>
+</html>
